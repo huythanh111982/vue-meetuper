@@ -6,7 +6,10 @@
 
 <script>
   export default {
-    
+    created () {
+      debugger
+      this.$route.params.id;
+    },
   }
 </script>
 
